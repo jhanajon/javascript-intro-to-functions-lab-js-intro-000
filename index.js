@@ -39,9 +39,9 @@ function sayHiToGrandma(string) {
 
 function sayHiToGrandmaCase(string) {
   switch(string){
-  case toLowerCase: return "I can't hear you!"
+  case stting.toLowerCase: return "I can't hear you!"
 //   //break;
-  case toUpperCase: return "YES INDEED!"
+  case string.toUpperCase: return "YES INDEED!"
 //   //break;
   case "I love you, Grandma." : return "I love you, too."
 //   // break;
