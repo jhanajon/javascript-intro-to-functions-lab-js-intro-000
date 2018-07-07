@@ -8,7 +8,7 @@ function whisper(string) {
 
 
 function logShout(string) {
-  //mine did not work
+  //mine did not work, problem apparently I misunderstood that lowercase is not the same as toLowerCase etc and that the if statement required a test that it's a string.
   //console.log.toUpperCase();
   //cheated from solutions - works
   console.log(string.toUpperCase())
@@ -17,6 +17,8 @@ function logShout(string) {
 function logWhisper(string) {
   console.log(string.toLowerCase())
 }
+
+/////////////////
 
 function sayHiToGrandma(string) {
   if (string.toLowerCase() === string){
@@ -32,14 +34,17 @@ function sayHiToGrandma(string) {
   }
 }
 
-// switch(string){
-//   case 'hello': return "I can't hear you!"
-//   //case lowercase: return "I can't hear you!"
+
+///////////////////////////////////
+
+function sayHiToGrandmaCase(string) {
+  switch(string){
+  case toLowerCase: return "I can't hear you!"
 //   //break;
-//   case 'HELLO': return "YES INDEED!"
+  case toUpperCase: return "YES INDEED!"
 //   //break;
-//   case "I love you, Grandma.": return "I love you, too."
+  case "I love you, Grandma." : return "I love you, too."
 //   // break;
-//   default: return "";
-// }
-//}
+  default: return "";
+}
+}
