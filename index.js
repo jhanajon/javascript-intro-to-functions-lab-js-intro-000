@@ -20,7 +20,7 @@ function logWhisper(string) {
 //I misunderstood that lowercase is not the same as toLowerCase etc and that the if statement required a test that it's a string.
 //////////////////
 
-// this required a bit of help learning the argument to evaluate (string.toLowerCase() === string) to establish it is a string, 
+// this required a bit of help learning the argument to evaluate (string.toLowerCase() === string) to establish it is a string,
 //and then also that lowercase is not sufficient as it has to be toLowerCase whereas I thought the input would already be
 //lowercase and that toLowerCase meant to convert it to lowercase - actually I still don't understand this entirely
 function sayHiToGrandma(string) {
@@ -36,5 +36,3 @@ function sayHiToGrandma(string) {
     return "I love you, too."
   }
 }
-
-
